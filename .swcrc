@@ -1,0 +1,19 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "minify": false,
+  "sourceMaps": true,
+  "jsc": {
+    "keepClassNames": true,
+    "parser": {
+      "syntax": "typescript",
+      "decorators": true,
+      "topLevelAwait": true,
+      "importMeta": true,
+      "dynamicImport": true
+    },
+    "transform": {
+      "decoratorMetadata": true,
+      "legacyDecorator": true
+    }
+  }
+}
