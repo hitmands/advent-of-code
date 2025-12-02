@@ -31,6 +31,9 @@ export const compass = (dir: string): Rotation[] => {
       return direction([-1, 0]);
     case "ne":
       return direction([-1, 1]);
+
+    default:
+      return [];
   }
 };
 
